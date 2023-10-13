@@ -1,0 +1,160 @@
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --Very-Dark-Magenta: hsl(300, 43%, 22%);
+  --Soft-Pink: hsl(333, 80%, 67%);
+  --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+  --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+  --White: hsl(0, 0%, 100%);
+}
+
+body{
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'League Spartan', sans-serif;
+  font-size: .94rem;
+  background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat; 
+}
+
+.d-flex{
+  display: flex;
+  flex-direction: row;
+  
+  gap: 1.1em;
+}
+
+.container{
+  width: 100%;
+  margin: 5em 10em;
+  max-width: 850px;
+}
+
+.social{
+  width: 44.5%;
+}
+.social h1{
+  color: var(--Very-Dark-Magenta);
+  font-weight: 700;
+  margin-bottom: .6em;
+  font-size: 3rem;
+}
+.social p{
+  color: var(--Dark-Grayish-Magenta);
+  font-weight: 400;
+  line-height: 1.3em;
+}
+
+.social_rates{
+  width: 45%;
+}
+
+.social_image{
+  display: flex;
+  flex-direction: row;
+
+  gap: .4em;
+}
+
+.design{
+  background: var(--Light-Grayish-Magenta);
+  margin: .75em;
+  border-radius: .5em;
+  padding: 1em;
+
+}
+ .design p{
+  color: var(--Very-Dark-Magenta);
+  font-weight: 700;
+  margin-left: .9em;
+ }
+  
+
+/* Styling social_rates*/
+.one{
+  position: relative;
+  top: 0px;
+  left: 0em;
+}
+
+.two{
+  position: relative;
+  top: 0em;
+  left: 2.8em;
+}
+.three{
+  position: relative;
+  top: 0em;
+  left: 5.5em;
+}
+
+
+/* SECOND SECTION STYLING*/
+
+.article_content{
+  padding: 2em 1em;
+  width: 100%;
+  background-color: var(--Very-Dark-Magenta);
+  color: var(--White);
+  border-radius: .5em;
+}
+.article_para{
+  line-height: 1.3em;
+}
+
+.arrange{
+  margin-top: -1em;
+}
+.author{
+  padding: 0 1em 1.5em 0;
+}
+.flex_image{
+  border: none; 
+  border-radius: 50%;
+  width: 20%;
+  height: 20%;
+  margin: .6em 0;
+}
+
+.flex_title{
+  font-weight: 400;
+  line-height: 1.2em;
+  margin: .7em 0
+}
+
+.flex_title p{
+  color: var(--Soft-Pink);
+}
+
+.four{
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.five{
+  position: relative;
+  top: .8em;
+  left: .5em;
+}
+
+.six{
+  position: relative;
+  top: 1.5em;
+  left: 1em;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
